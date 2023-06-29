@@ -1,0 +1,128 @@
+.jogo-da-velha {
+    text-align: center;
+    margin-top: 250px;
+  }
+
+
+  .tabuleiro {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .celula {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: calc(33.33% - 10px);
+    height: 100px;
+    font-size: 2rem;
+    border: 1px solid #000000;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 5px;
+  }
+  
+  .mensagem {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+
+  .footer {
+    background-color: #c7c1c1;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 480px) {
+    @media screen and (max-width: 768px) {
+        @media screen and (max-width: 1024px) {
+            @media screen and (max-width: 1200px) {
+                .jogo-da-velha {
+                    text-align: center;
+                    margin-top: 250px;
+                  }
+                
+                
+                  .tabuleiro {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 300px;
+                    margin: 0 auto;
+                  }
+                  
+                  .celula {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-basis: calc(33.33% - 10px);
+                    height: 100px;
+                    font-size: 2rem;
+                    border: 1px solid #000000;
+                    cursor: pointer;
+                    box-sizing: border-box;
+                    margin: 5px;
+                  }
+                  
+                  .mensagem {
+                    margin-top: 20px;
+                  }
+                  
+                  button {
+                    margin-top: 10px;
+                    padding: 10px 20px;
+                    font-size: 1rem;
+                    background-color: #4caf50;
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  }
+                  
+                  button:hover {
+                    background-color: #45a049;
+                  }
+                  
+                  button:disabled {
+                    background-color: #cccccc;
+                    cursor: not-allowed;
+                  }
+                
+                  .footer {
+                    background-color: #c7c1c1;
+                    padding: 10px;
+                    text-align: center;
+                    position: fixed;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                  }
+                }
+            }
+        }
+    }
+                  
